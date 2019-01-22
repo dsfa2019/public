@@ -3,7 +3,7 @@
 These are the course materials for [Data Science For All][dsfa-web],
 taught in Spring 2018 at Cornell University and cross-listed as 
 CS 1380, ORIE 1380, and STSCI 1380.  The instructors are
-[Andrew Gordon Wilson][agw] and Jim Booth[jb]
+[Andrew Gordon Wilson][agw] and [Jim Booth][jb]
 
 ## Installation
 
