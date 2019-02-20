@@ -247,7 +247,7 @@ def check2_6(country_poverty, mode=CHECK):
         elif list(country_poverty('India').column('Year')) != [1977, 1983, 1987, 1993, 2004, 2009, 2011]:
             fails('Incorrect. The years in the table for India should be: 1977, 1983, 1987, 1993, 2004, 2009, 2011.', mode)
         elif not is_close(country_poverty('India').sort('Year').column('Number in poverty').item(0), 400698778):
-            fails('Incorrect. The number of people in poverty in India in 1983 should be 400698778.', mode)
+            fails('Incorrect. The number of people in poverty in India in 1977 should be 400698778.', mode)
         else:
             ok(mode)
     
