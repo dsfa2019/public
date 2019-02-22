@@ -150,7 +150,7 @@ def check1_7(fertility_and_child_mortality, mode=CHECK):
     if not check_table_labels(fertility_and_child_mortality, ('Children per woman', 'Child deaths per 1000 born'), mode):
         pass
     elif fertility_and_child_mortality.num_rows != 49:
-        fail('Incorrect. Make sure the table contains data for each year from 1970 to 2018, inclusive.', mode)
+        fails('Incorrect. Make sure the table contains data for each year from 1970 to 2018, inclusive.', mode)
     else:
         ok(mode)
         
